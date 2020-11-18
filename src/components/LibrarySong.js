@@ -5,9 +5,9 @@ const LibrarySong = ({song, songs, setCurrentSong}) => {
 
     // Event handler
     const songSelectHandler = () => {
-        const selectedSong = songs.find((state) => state.id === song.id);
-        console.log(selectedSong)
-        setCurrentSong(selectedSong)
+        // const selectedSong = songs.find((state) => state.id === song.id);
+        console.log(song)
+        setCurrentSong(song)
     }
 
     return (
